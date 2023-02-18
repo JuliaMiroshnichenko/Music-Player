@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jura", sans-serif;
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #523026;
+    color: #FFFFFF;
+}
+
+.player {
+    background: linear-gradient(169.43deg, #885747 9.23%, #6A3423 92.93%);
+    box-shadow: 2px 4px 9px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    max-width: 414px;
+    *height: 715px;
+    width: 100%;
+    padding: 16px 20px 8px;
+
+    .top {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 4px;
+    }
+
+    .title {
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 47px;
+        color: #FFFFFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        text-align: center;
+        margin-bottom: 28px;
+
+    }
+
+    .cover {
+        display: flex;
+        justify-content: center;
+        margin: 15px 0 0;
+
+        .cover__img {
+            &.active {
+                animation: rotateAnimation 3s Linear Infinite;
+            }
+        }
+    }
+
+    .song {
+        font-weight: 700;
+        font-size: 38px;
+        // font-size: 38px;
+        line-height: 57px;
+        text-align: center;
+        color: #FFFFFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin-bottom: 8px;
+    }
+
+    .progress__container {
+        //     width: 3px;
+        //     height: 0;
+        //     background-color: #B1B1B1;
+        //     border: 6px solid #B1B1B1;
+        //     border-radius: 11px;
+        //     margin-top: 28px;
+        //     display: flex;
+        //     align-items: center;
+        //     cursor: pointer;
+
+        .progress {
+            //убрать ширину при js работе с progress
+            // width: 367px;
+            height: 25px;
+            margin-bottom: 20px;
+            //         border: 6px solid #F2F1F1;
+            //         background-color: #F2F1F1;
+
+        }
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 260px;
+        height: 90px;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 7px;
+
+        .btn {
+            cursor: pointer;
+        }
+    }
+
+    .more-music {
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        width: 175px;
+        height: 28px;
+        margin-bottom: 8px;
+    }
+}
+
+@keyframes rotateAnimation {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
