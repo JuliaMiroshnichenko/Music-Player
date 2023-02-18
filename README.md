@@ -1,10 +1,11 @@
-# Music-Pleer
-Music Pleer
 
-# Касмотный аудиоплеер для сайта
 
-Инструменты: 
+### Кастомный аудиоплеер / /Custom Music Pleer
 
-Html 
-Scss 
-Js
+---
+
+## Инструменты / Tools 
+
+* Html 
+* Scss 
+* Js
