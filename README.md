@@ -1,6 +1,6 @@
 # НА ДОРАБОТКЕ ! 
 
-## Кастомный аудиоплеер / Custom Music Pleer
+## Кастомный аудиоплеер / Custom Music Player
 
 ---
 
