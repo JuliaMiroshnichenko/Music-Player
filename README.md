@@ -1,10 +1,10 @@
 
 
-### Кастомный аудиоплеер / /Custom Music Pleer
+## Кастомный аудиоплеер / Custom Music Pleer
 
 ---
 
-## Инструменты / Tools 
+### Инструменты / Tools 
 
 * Html 
 * Scss 
